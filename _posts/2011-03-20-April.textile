@@ -1,0 +1,8 @@
+---
+layout: post
+title: April 2011 Silisec
+---
+
+h1. April 7th, 2011
+
+Quirky message. Faultline Brewing Company in Sunnyvale. Starts at 7pm.
