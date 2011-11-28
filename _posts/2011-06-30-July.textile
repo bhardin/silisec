@@ -1,0 +1,8 @@
+---
+layout: post
+title: July 2011 Silisec
+---
+
+h1. July 7th, 2011
+
+Enjoy the fireworks this weekend, and then join us around 7pm for the next silisec meetup at the Faultline Brewing Company in Sunnyvale.

@@ -1,0 +1,8 @@
+---
+layout: post
+title: November 2011 Silisec
+---
+
+h1. November 3, 2011
+
+Quirky message goes here. See you at 7pm.

@@ -1,1 +1,17 @@
-Test Silisec Page
+---
+layout: default
+title: Silisec
+---
+
+<div id="home">
+	<h1>Next Silisec Event</h1>
+  <h1><a href="{{ site.posts.first.url }}">{{ site.posts.first.title }}</a></h1>  
+
+
+  <h1>Previous Silisec Events</h1>
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
