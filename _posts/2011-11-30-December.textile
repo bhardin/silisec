@@ -5,4 +5,4 @@ title: December 2011 Silisec
 
 h1. December 8, 2011
 
-Silisec will be at Faultline Brewery on December 8th, 2011. Silisec starts at 7pm. Many of us show up at 6 though. :)	
+Silisec will be at Faultline Brewery on December 8th, 2011. Silisec starts at 7pm. Many of us show up at 6 though. :) Don't forget that <a href="http://baythreat.org/">baythreat</a> starts the next day!	
