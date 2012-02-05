@@ -23,7 +23,7 @@ filename = t.strftime("%Y-%m-%d-") + next_month + ".textile"
 data = ""
 data << "---\n"
 data << "layout: post\n"
-data << "title: February 2011 Silisec\n"
+data << "title: " +  (t + seconds_in_a_month).strftime("%B %Y").to_s + " Silisec\n"
 data << "---\n"
 data << "\n"
 data << "h1. " + first_thursday_of_next_month(Time.now).strftime("%B %-d, %Y")
