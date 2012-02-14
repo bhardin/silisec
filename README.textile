@@ -4,11 +4,7 @@ It is automatically transformed by "Jekyll":http://github.com/mojombo/jekyll int
 
 h2. How to Use/Add a Silisec Date
 
-h3. Name of the File
-
-Add a file to the posts folder with the following format:
-
-YYYY-MM-DD-MONTH.textile (MONTH is the full name of the month that the silisec will be happening, i.e. 2011-01-01-August.textile)
+Run ./createPost.rb
 
 h3. Contents
 
