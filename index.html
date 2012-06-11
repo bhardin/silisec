@@ -4,13 +4,14 @@ title: Silisec
 ---
 
 <div id="home">
-	<h1>Next Silisec Event</h1>
-  <h1><a href="{{ site.posts.first.url }}">{{ site.posts.first.title }}</a></h1>  
+	<h2>Next Silisec Event</h2>
+  <h2><a href="{{ site.posts.first.url }}">{{ site.posts.first.title }}</a></h2>  
 
+  <br/>
 
-  <h1>Previous Silisec Events</h1>
+  <h2>Previous Silisec Events</h2>
   <ul class="posts">
-    {% for post in site.posts %}
+    {% for post in site.posts limit:5 offset:1 %}
       <li><a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul>

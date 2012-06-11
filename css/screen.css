@@ -120,31 +120,31 @@ ul.posts {
   }
 
   .site .footer {
-    font-size: 80%;
+    font-size: 70%;
     color: #666;
     border-top: 4px solid #eee;
     margin-top: 2em;
     overflow: hidden;
+    display: block;
   }
 
     .site .footer .contact {
-      float: left;
-      margin-right: 3em;
+      
     }
+
+      .site .footer .contact li {
+        display: inline-block;
+      }
 
       .site .footer .contact a {
         color: #8085C1;
       }
 
-    .site .footer .rss {
-      margin-top: 1.1em;
-      margin-right: -.2em;
-      float: right;
-    }
-
-      .site .footer .rss img {
-        border: 0;
+      .site .footer .copyright {
+        float: right;
+        display: inline;
       }
+
 
 /*****************************************************************************/
 /*
