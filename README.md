@@ -4,9 +4,12 @@ Silisec.com is automatically transformed by [Jekyll](http://github.com/mojombo/j
 
 ## Creating The Next Silisec Meetup
 
-To generate next months silisec page, run:
+To generate next months silisec page, run the following commands:
 
 	./createPost.rb
+	git add .
+	git commit -m "New Meetup"
+	git push origin
 
 This script will create a page for the next silisec, which is always the First Thursday of the month.
 
