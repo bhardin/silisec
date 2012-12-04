@@ -1,0 +1,17 @@
+---
+---
+BEGIN:VCALENDAR
+METHOD:PUBLISH
+VERSION:2.0
+PRODID:-//Apple Inc.//iCal 4.0.4//EN
+{% for post in site.posts %}
+{% if post.event-summary %}
+BEGIN:VEVENT
+SUMMARY:{{ post.event-summary }}
+LOCATION:{{ post.event-location }}
+DTSTART{% if post.event-timezone %};TZID={{ post.event-timezone }}{% endif %}:{{ post.event-start }}
+DTEND{% if post.event-timezone %};TZID={{ post.event-timezone }}{% endif %}:{{ post.event-end }}
+END:VEVENT
+{% endif %}
+{% endfor %}
+END:VCALENDAR
