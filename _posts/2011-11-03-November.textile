@@ -1,6 +1,11 @@
 ---
 layout: post
 title: November 2011 Silisec
+event-summary: Silisec
+event-timezone: America/Los_Angeles
+event-start: 20111103T190000
+event-end: 20111103T230000
+event-location: Faultline Brewing Company
 ---
 
 h1. November 3, 2011

@@ -3,30 +3,32 @@
 
 # Recursive algorithm that is used to find the first Thursday of the month.
 def first_thursday_of_next_month(t)
-  if(t.day < 8)
-    if(t.thursday?)
-      return t
-    else
-      first_thursday_of_next_month(t + (60 * 60 * 24))
-    end
+  if t.day < 8 and t.wday == 4
+    t
   else
     first_thursday_of_next_month(t + (60 * 60 * 24))
   end
 end
 
 path = "_posts/"
+
 t = Time.now
-seconds_in_a_month = 2592000
-next_month = (t + seconds_in_a_month).strftime("%B").to_s
-filename = t.strftime("%Y-%m-%d-") + next_month + ".textile"
+next_event = first_thursday_of_next_month(t)
+
+filename = t.strftime("%Y-%m-%d-") + next_event.strftime("%B") + ".textile"
 
 data = ""
 data << "---\n"
 data << "layout: post\n"
-data << "title: " +  (t + seconds_in_a_month).strftime("%B %Y").to_s + " Silisec\n"
+data << "title: " + next_event.strftime("%B %Y") + " Silisec\n"
+data << "event-summary: Silisec\n"
+data << "event-timezone: America/Los_Angeles\n"
+data << "event-start: " + next_event.strftime("%Y%m%d") + "T190000\n"
+data << "event-end: " + next_event.strftime("%Y%m%d") + "T230000\n"
+data << "event-location: Faultline Brewing Company\n"
 data << "---\n"
 data << "\n"
-data << "h1. " + first_thursday_of_next_month(Time.now).strftime("%B %-d, %Y")
+data << "h1. " + next_event.strftime("%B %-d, %Y")
 data << "\n\n"
 data << "Silisec will be at Faultline Brewery and starts at 7pm."
 data << "\n"
