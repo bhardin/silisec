@@ -1,5 +1,6 @@
 POST_PATH = "_posts/"
 
+desc "Create a new post for the first Thursday of next month"
 task :post do
 	t = Time.now
 	next_event = first_thursday_of_next_month(t)
