@@ -1,0 +1,13 @@
+---
+layout: post
+title: November 2013 Silisec
+event-summary: Silisec
+event-timezone: America/Los_Angeles
+event-start: 20131107T190000
+event-end: 20131107T230000
+event-location: Faultline Brewing Company
+---
+
+h1. November 7, 2013
+
+Silisec will be at Faultline Brewery and starts at 7pm.
