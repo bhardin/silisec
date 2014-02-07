@@ -1,0 +1,13 @@
+---
+layout: post
+title: March 2014 Silisec
+event-summary: Silisec
+event-timezone: America/Los_Angeles
+event-start: 20140306T190000
+event-end: 20140306T230000
+event-location: Faultline Brewing Company
+---
+
+h1. March 6, 2014
+
+Silisec will be at Faultline Brewery and starts at 7pm.
