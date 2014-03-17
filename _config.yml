@@ -1,3 +1,2 @@
 permalink: /meetup/:year/:title
-auto: true
 exclude: createPost.rb, CNAME, README.md
