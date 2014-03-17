@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: facebook
 title: April 2014 Silisec
 event-summary: Silisec
 event-timezone: America/Los_Angeles
@@ -8,6 +8,7 @@ event-end: 20140403T230000
 event-location: Faultline Brewing Company
 ---
 
-h1. April 3, 2014
+<div id="fb-root"></div>
 
-Silisec will be at Faultline Brewery and starts at 7pm.
+<script>(function(d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = "//connect.facebook.net/en_US/all.js#xfbml=1"; fjs.parentNode.insertBefore(js, fjs); }(document, 'script', 'facebook-jssdk'));</script>
+<div class="fb-post" data-href="https://www.facebook.com/silisec/posts/578823998881143" data-width="680"><div class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/silisec/posts/578823998881143">Post</a> by <a href="https://www.facebook.com/silisec">silisec</a>.</div></div>
