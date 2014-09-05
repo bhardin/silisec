@@ -1,2 +1,2 @@
 permalink: /meetup/:year/:title
-exclude: createPost.rb, CNAME, README.md
+exclude: ["createPost.rb", "CNAME", "README.md"]
