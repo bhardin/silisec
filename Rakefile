@@ -5,7 +5,7 @@ task :post do
 	t = Time.now
 	next_event = first_thursday_of_next_month(t)
 
-	filename = t.strftime("%Y-%m-%d-") + next_event.strftime("%B") + ".textile"
+	filename = t.strftime("%Y-%m-%d-") + next_event.strftime("%B") + ".md"
 
 	data = ""
 	data << "---\n"
@@ -18,7 +18,7 @@ task :post do
 	data << "event-location: Faultline Brewing Company\n"
 	data << "---\n"
 	data << "\n"
-	data << "h1. " + next_event.strftime("%B %-d, %Y")
+	data << "# " + next_event.strftime("%B %-d, %Y")
 	data << "\n\n"
 	data << "Silisec will be at Faultline Brewery and starts at 7pm."
 	data << "\n"
@@ -27,7 +27,6 @@ task :post do
 end
 
 task :default => :post
-
 
 def first_thursday_of_next_month(t)
   if t.day < 8 and t.wday == 4
