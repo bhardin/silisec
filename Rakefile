@@ -9,7 +9,7 @@ task :post do
 
 	data = ""
 	data << "---\n"
-	data << "layout: post\n"
+	data << "layout: faultline\n"
 	data << "title: " + next_event.strftime("%B %Y") + " Silisec\n"
 	data << "event-summary: Silisec\n"
 	data << "event-timezone: America/Los_Angeles\n"

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: faultline
 title: June 2014 Silisec
 event-summary: Silisec
 event-timezone: America/Los_Angeles
