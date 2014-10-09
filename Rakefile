@@ -9,18 +9,18 @@ task :post do
 
 	data = ""
 	data << "---\n"
-	data << "layout: faultline\n"
+	data << "layout: firehouse\n"
 	data << "title: " + next_event.strftime("%B %Y") + " Silisec\n"
 	data << "event-summary: Silisec\n"
 	data << "event-timezone: America/Los_Angeles\n"
 	data << "event-start: " + next_event.strftime("%Y%m%d") + "T190000\n"
 	data << "event-end: " + next_event.strftime("%Y%m%d") + "T230000\n"
-	data << "event-location: Faultline Brewing Company\n"
+	data << "event-location: Firehouse Brewing Company\n"
 	data << "---\n"
 	data << "\n"
 	data << "# " + next_event.strftime("%B %-d, %Y")
 	data << "\n\n"
-	data << "Silisec will be at Faultline Brewery and starts at 7pm."
+	data << "Silisec will be at Firehouse Brewery and starts at 7pm."
 	data << "\n"
 
 	File.open(POST_PATH + filename, 'w') {|f| f.write(data) }
