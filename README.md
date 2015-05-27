@@ -1,12 +1,12 @@
-# Silsec.com
+# silsec.org
 
-Silisec.com is automatically transformed by [Jekyll](http://github.com/mojombo/jekyll) into a static site whenever this repository is pushed to GitHub.
+Silisec.org is automatically transformed by [Jekyll](http://github.com/mojombo/jekyll) into a static site whenever this repository is pushed to GitHub.
 
 ## Creating The Next Silisec Meetup
 
 To generate next months silisec page, run the following commands:
 
-	./createPost.rb
+	./rake
 	git add .
 	git commit -m "New Meetup"
 	git push origin
