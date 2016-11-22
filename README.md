@@ -11,7 +11,7 @@ To generate next months silisec page, run the following commands:
 	git commit -m "New Meetup"
 	git push origin
 
-This script will create a page for the next silisec, which is always the First Thursday of the month.
+This script will create a page for the next silisec, which is generally the First Thursday of the month
 
 ## Other Meetups
 
